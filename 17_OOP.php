@@ -13,7 +13,7 @@ class User {
     // Properties are attributes that belong to a class
     public $name;
     public $email;
-    public $password;
+    public $password; 
 
     // A constructor is a method that runs when an object is created
     public function __construct($name, $email, $password){
